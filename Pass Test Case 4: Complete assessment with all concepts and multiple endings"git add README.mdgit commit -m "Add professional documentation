@@ -1,0 +1,14 @@
+if type(current_gpa) is float and type(social_points) is not int:
+    print("n\Stats are valid types for calculations.")
+
+if current_gpa >= 3.5 and social_points >= 55 and stress_level < 50:
+    print("Ending 1: Academic star with a balanced life")
+elif current_gpa < 2.5 and stress_level > 80:
+    print("Ending 2: Struggling student overwhelmed with stress")
+else:
+    print("Ending 3: Average student who survived college life.")
+
+print("Final Stats!")
+print(f"GPA: {current_gpa}")
+print(f"Study Hours: {study_hours}")
+print(f"Stress Level: {stress_level}")
