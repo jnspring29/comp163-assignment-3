@@ -1,0 +1,14 @@
+study_options = ["Programming", "Math", "English", "History"]
+subject_chosen = input("Choose a subject to focus on:")
+
+if subject_chosen in study_options:
+    if (subject_chosen == "Programming" or subject_chosen == "Math") and subject_chosen in study_options:
+        current_gpa = 0.1
+        social_points = 5
+    elif (subject_chosen == "English" or subject_chosen == "History") and subject_chosen in study_options:
+        current_gpa = 0.05
+        social_points = 5
+    print(f"You chose {subject_chosen}. GPA {current_gpa}, Social {social_points}")
+else:
+    subject_chosen not in study_options
+    print("Invalid subject")
