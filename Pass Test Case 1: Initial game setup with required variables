@@ -1,0 +1,11 @@
+student_name = "Jessica"
+current_gpa = 3.2
+study_hours = 31
+social_points = 50
+stress_level = 100
+
+print(f"Welcome {student_name}!")
+print(f"Current GPA: {current_gpa}")
+print(f"Study Hours: {study_hours}")
+print(f"Social Points: {social_points}")
+print(f"Stress Level: {stress_level}")
